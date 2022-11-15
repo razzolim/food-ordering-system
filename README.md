@@ -1,4 +1,15 @@
 # food-ordering-system
+
+This project aims to provide an application utilizing following concepts and technologies:
+
+**Microservices, Clean & Hexagonal Architectures, DDD, SAGA, Outbox, Kafka and K8s.**
+
+Project architecture overview:
+![](/resources/overview.png)
+
+Modules dependency schema:
+![](/resources/dependency-graph.png)
+
 Follow the below instructions in order to get the application running.
 
 ## Running on local environment
