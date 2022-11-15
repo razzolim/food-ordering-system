@@ -10,8 +10,6 @@ Project architecture overview:
 Modules dependency schema:
 ![](/resources/dependency-graph.png)
 
-Follow the below instructions in order to get the application running.
-
 ## Running on local environment
 
 ### Create Zookeeper
@@ -19,7 +17,7 @@ Run the below command so that Zookeeper can be created:
 
 ```docker-compose -f infrastructure/docker-compose/common.yml -f infrastructure/docker-compose/zookeeper.yml up```
 
-Check is everything is up with command:
+Check if everything is up with command:
 
 ```echo ruok | nc localhost 2181```
 
